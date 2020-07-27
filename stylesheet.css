@@ -1208,6 +1208,13 @@ footer ul li{
 
     width: 100%;
 }
+.footer1{
+    height:70px;
+    margin-top: 20px;
+    background-color: #111;
+    overflow: hidden;
+    position: relative;
+}
 @media only screen and (min-width:1000px) {
     .footer1{
         height:70px;
