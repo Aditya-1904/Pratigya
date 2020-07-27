@@ -496,6 +496,7 @@ header .header-brand{
   font-size: 50px;
   font-family: "Castellar";
   margin-left: 15px;
+  text-align: center;
 }
 
 
@@ -783,7 +784,10 @@ display: none;
   font-size: 50px;
   font-family: "Castellar";
   margin-left: 15px;
+  text-align: center;
 }
+
+
 
 
 .index-links div{
@@ -791,6 +795,10 @@ display: none;
      width: calc(100% - 32px);
      height: 230px;
      background-color: #f2f2f2;
+}
+.index-links div:hover{
+    filter: grayscale(1) brightness(0.5);
+    transition: 0.3s linear;
 }
 
 .index-links div h3{
@@ -863,14 +871,23 @@ display: none;
         height: 1950px;
     }
     
-
+    .index-links h4{
+        font-size:30px;
+        font-family: "Castellar";
+        margin-left: 15px;
+        text-align: center;
+      }
 
 
 
 @media only screen and (min-width:1000px) {
 
+ 
+    .index-links h4{
+       display: none;
+      }
 
-
+      
 .home-page-written{
     margin-top: 40px;
     width: 1000px;
