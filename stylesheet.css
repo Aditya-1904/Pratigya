@@ -1200,7 +1200,7 @@ footer ul li{
 }
 
 .footer-index{
-    height: 70px;
+    height: 0px;
     margin-top:700px ;
 }
 .footer1{
@@ -1221,6 +1221,7 @@ footer ul li{
     overflow: hidden;
     position: relative;
 }
+
 @media only screen and (min-width:1000px) {
     .footer1{
         height:70px;
@@ -1230,6 +1231,8 @@ footer ul li{
         position: relative;
     }
 .footer-index{
+    height: 70px;
+
 
     margin-top:330px ;}
     footer {
