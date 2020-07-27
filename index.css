@@ -1,0 +1,1311 @@
+/*-- Navigation Bar -*/
+*{
+    text-decoration: none;
+}
+
+main{
+    padding-top: 100px;
+    
+}
+
+header{
+    position :fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+header .header-brand{
+    font-family: "Castellar";
+    font-size: 24px;
+    font-weight: 900;
+    color: #111;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+header  img{
+   float: left;
+   height: 90px;
+   padding: 10px 0px;
+  
+   
+}
+header nav ul {
+    display: block;          /* without this the margin will not be given */
+    margin: 0 auto;
+    width: fit-content;          /*it will align the ul to center*/ 
+}
+header nav ul li{
+  
+    display: inline-block;
+
+    list-style: none;
+   
+
+}
+header nav ul li a {
+    font-size: 16px;
+    color: #111;
+    text-align: center;
+    padding: 0 7px;
+
+}
+
+
+header .header-cases{
+    display :none;
+}
+
+header .current{
+    color: red;
+    font-weight:900 ;
+}
+
+@media only screen and (min-width:1000px) {
+    header .header-brand{
+        margin: 31px 0 ;
+        text-align: left;
+        padding: 0 20px 0 40px;
+        line-height: 38px;
+
+        border-right:3px solid #111;
+        float: left;
+
+    }
+    header nav ul li a {
+        font-size: 16px;
+        color: #111;
+        text-align: center;
+        padding: 0 20px;
+    
+    }
+
+    header nav ul {
+         /* without this the margin will not be given */
+    margin: 20px 0px 0px 20px;
+    float: left;
+ 
+    }
+    header nav ul li a {
+        text-transform: uppercase;
+        line-height: 60px;
+
+    }
+    header .header-cases{
+        display :block;
+        font-family: "Castellar";
+        font-size: 16px;
+        color: #111;
+        text-transform: uppercase;
+        border: 1px solid #111;
+        float: right;
+        line-height: 38px;
+        margin-top: 30px;
+        margin-right: 40px;
+        padding: 0 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+header .header-brand{
+    font-family: "Castellar";
+    font-size: 24px;
+    font-weight: 900;
+    color: #111;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+.header1{
+    height: 200px;
+}
+.header1 nav ul {
+    display: block;          /* without this the margin will not be given */
+    margin: 0 auto;
+    width: fit-content;          /*it will align the ul to center*/ 
+}
+.header1 nav ul li{
+  
+    display: inline-block;
+
+    list-style: none;
+    padding: 0 5px;
+   
+
+}
+.header1 nav ul li a {
+    font-size: 16px;
+    color: #111;
+    text-align: center;
+
+}
+
+
+.header1 .header-cases{
+    display :none;
+}
+
+.header1 .current{
+    color: red;
+    font-weight:900 ;
+}
+    .header1  img{
+    float: left;
+    height: 90px;
+    padding: 10px 0px;
+   
+    
+ }
+
+@media only screen and (min-width:1000px) {
+    .header1{
+        height: 100px;
+    }
+    
+      .header1  img{
+        float: left;
+        height: 90px;
+        padding: 10px 0px;
+       
+        
+     }
+    .header1 nav ul {
+        /* without this the margin will not be given */
+   margin: 20px 0px 0px 20px;
+   float: left;
+
+   }
+   .header1 nav ul li a {
+       text-transform: uppercase;
+       line-height: 60px;
+       font-size: 16px;
+       color: #111;
+       text-align: center;
+       padding: 0 10px;
+
+   }
+   .header1 .header-cases{
+       display :block;
+       font-family: "Castellar";
+       font-size: 16px;
+       color: #111;
+       text-transform: uppercase;
+       border: 1px solid #111;
+       float: right;
+       line-height: 38px;
+       margin-top: 30px;
+       margin-right: 40px;
+       padding: 0 20px;
+   }
+}
+
+    header .header-brand{
+        margin: 31px 0 ;
+        text-align: left;
+        padding: 0 20px 0 40px;
+        line-height: 38px;
+
+        border-right:3px solid #111;
+        float: left;
+
+    }
+    header nav ul {
+         /* without this the margin will not be given */
+    margin: 20px 0px 0px 20px;
+    float: left;
+ 
+    }
+    header nav ul li a {
+        text-transform: uppercase;
+        line-height: 60px;
+
+    }
+    header .header-cases{
+        display :block;
+        font-family: "Castellar";
+        font-size: 16px;
+        color: #111;
+        text-transform: uppercase;
+        border: 1px solid #111;
+        float: right;
+        line-height: 38px;
+        margin-top: 30px;
+        margin-right: 40px;
+        padding: 0 20px;
+    }
+
+
+
+
+/*--------------index-------------*/
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+/*--------------events-------------*/
+
+
+
+
+
+
+
+/*--------------event Calender-------------*/
+
+        
+    .cases-links .wrapper div h1{
+        font-size: 60px;
+        font-family: "Castellar";
+        margin-left: 15px;
+        text-align: center;
+      }
+      .cases-links .wrapper  h2{
+        font-size: 60px;
+        margin: 100px;
+        font-family: "Castellar";
+        text-align: center;
+      }  
+      
+      .cases-links .wrapper  h3{
+        font-size: 30px;
+        font-family: "lucinda";
+        text-align: center;
+      }
+    .cases-links .wrapper div{
+        margin: 16px 16px 0;
+        width: calc(100% - 32px);
+        height: 100px;
+        background-color: #f2f2f2;
+   }
+   
+   .cases-links .wrapper div p{
+    font-family: "lucinda";
+    font-size: 28px;
+    color: #111;
+    text-align: center;
+    font-weight: 600;
+
+    line-height: 100px;
+ 
+}
+
+    
+.main-calender{
+    height: 1540px;
+}
+
+   @media only screen and (min-width:1000px) {
+
+    .cases-links .wrapper  h2{
+        font-size: 60px;
+        font-family: "Castellar";
+        text-align: center;
+      }
+      .cases-links .wrapper  h3{
+        font-size: 30px;
+        font-family: "Castellar";
+        text-align: center;
+      }
+    .main-calender{
+        height: 600px;
+    }
+    .cases-links .wrapper div{
+        float: left;
+        width: 230px;
+        height: 230px;
+        margin: 20px 10px 0;
+        background-color: #e3e3e3;
+    }
+
+    .cases-links{
+        overflow: hidden;
+        margin-bottom: 20px;
+        }
+        
+        .cases-links h2{
+            font-family: "Castellar";
+            font-size: 28px;
+            color: #111;
+            font-weight: 600;
+            text-transform: uppercase;
+         
+            }
+        
+            .cases-links .wrapper p{
+                padding-top: 35%;
+                font-family: "lucinda";
+                font-size: 20px;
+                color: #111;
+                font-weight: 600;
+                text-align: center;
+                text-transform: uppercase;
+             
+                }
+   }
+
+
+
+/*--------------gallery-------------*/
+
+
+/*--------------gallery1-------------*/
+.gallery-written {
+ padding-top: 200px;
+ 
+}
+
+.gallery-written h1{
+    font-family: "Castellar";
+
+    text-align: center;
+      font-size: 50px;
+}
+
+.gallery-written p{
+    font-family: "lucinda";
+
+    font-size: 20px;
+    text-align: center;
+
+}
+
+@media only screen and (min-width:1000px) {
+    .gallery-written {
+        padding-top: 100px;
+        
+       }
+       
+       .gallery-written h1{
+           font-family: "Castellar";
+       
+           text-align: center;
+             font-size: 50px;
+       }
+       
+       .gallery-written p{
+           font-family: "lucinda";
+       
+           font-size: 20px;
+           text-align: center;
+       
+       }
+}
+
+
+
+
+
+/*--------------team-------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.index-banner {
+    width: 100%;
+    height: calc(100vh - 100px);   /*because 100px is the height of the header  ...thats why we have to subtract it from the view area*/
+  /*  height: 100vh;   vh means view height*/
+    background-image: url('img/bhai5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;     /*This will make the image and the text to be as ame as in other devices and to stay centered */
+}
+
+.vertical-center{    
+  display: table-cell;      /*itt will make the text the box inside the image */
+  vertical-align: middle;    /*this will make it vertically centered */
+}
+.index-banner h2{
+    font-family: "Castellar";
+    font-size: 90px;
+    color:#fff;
+    text-align: center;
+    font-weight: 900;
+    line-height: 70px;
+    text-shadow: 2px 2px 8px #111;
+}
+.index-banner h3{
+    font-family: "Castellar";
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 40px;
+    text-shadow: 2px 2px 8px #111;   /*will give a shadow to the letters 2px 2px means right and top and the 8px will be the blurryness to the letters*/
+    
+}
+
+.index-links1 h1{
+  font-size: 50px;
+  font-family: "Castellar";
+  margin-left: 15px;
+}
+
+
+.index-links1 div{
+     margin: 16px 16px 0;
+     width: calc(100% - 32px);
+     height: 300px;
+     background-color: #f2f2f2;
+     border: #111 solid 1px;
+}
+
+.index-links1 div h3{
+   
+    font-family: "Castellar";
+    font-size: 40px;
+    color: #111;
+    text-align: center;
+    font-weight: 600;
+
+    line-height: 40px;
+ 
+}
+.index-links1 div p{
+    font-family: "lucinda";
+    font-size: 28px;
+    color: #111;
+    text-align: center;
+    font-weight: 600;
+
+    line-height: 40px;
+ 
+}
+.index-links1  .index-boxlink-square12 {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 400px !important;
+    background-color: #f2f2f2;
+}
+
+.index-links1  .index-boxlink-rectangle12 {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 230px !important;
+    background-color: #f2f2f2;
+}
+.index-links1  .index-boxlink-square123 {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 230px !important;
+    background-color: #f2f2f2;
+}
+ 
+
+
+
+.index-links1  .index-boxlink-square1234 {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 270px !important;
+    background-color: #f2f2f2;
+}.index-links1  .index-boxlink-square12345 {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 230px !important;
+    background-color: #f2f2f2;
+}.index-links1  .index-boxlink-square123456 {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 270px !important;
+    background-color: #f2f2f2;
+}.index-links1  .index-boxlink-square1234567 {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 270px !important;
+    background-color: #f2f2f2;
+}
+
+@media only screen and (min-width:1000px) {
+    .wrapper1{
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------contact us-------------*/
+
+    
+.banner{
+    height: 430px;
+    
+    background-color: #e3e3e3;
+}
+
+.main-contact{
+    height: 1540px;
+}
+
+.banner h1{
+    font-family: "Castellar";
+    font-size: 48px;
+    color: #111;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 3%;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+.banner p{
+    line-height: 30px;
+
+    font-family: "lucinda";
+    font-size: 28px;
+    color: #111;
+    font-weight: 300;
+
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.fa-phone{
+    transform: rotate(90deg);
+}
+
+.banner a{
+    line-height: 30px;
+
+    font-family: "lucinda";
+    font-size: 28px;
+    color: rgb(24, 0, 112);
+    font-weight: 300;
+
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+
+.fa-facebook{
+    font-size: 40px;
+    margin-left: 390px;
+    padding: 10px 20px;
+}
+.fa-instagram{
+    font-size: 40px;
+    padding: 10px 20px;
+
+}
+.fa-twitter{
+    font-size: 40px;
+    padding: 10px 20px;
+
+}
+.fab{
+    color: #111;
+}
+.fab:hover{
+    color: rgb(24, 0, 112);
+
+}
+@media only screen and (min-width:1000px) {
+    .main-contact{
+        height: 500px;
+    }
+    
+    .banner{
+        width: 1165px;
+        height: 400px;
+        margin-left: 85px;
+        background-color: #e3e3e3;
+    }
+
+
+.fa-phone{
+    transform: rotate(90deg);
+}
+
+
+
+.fa-facebook{
+    font-size: 40px;
+    margin-left: 490px;
+    padding: 10px 20px;
+}
+.fa-instagram{
+    font-size: 40px;
+    padding: 10px 20px;
+
+}
+.fa-twitter{
+    font-size: 40px;
+    padding: 10px 20px;
+
+}
+        
+}
+
+
+
+
+/*--- Index ----*/
+    
+.main-index{
+    height: 2200px;
+}
+
+.index-banner {
+    width: 100%;
+    height: calc(50vh - 100px);   /*because 100px is the height of the header  ...thats why we have to subtract it from the view area*/
+  /*  height: 100vh;   vh means view height*/
+  background-image: url('img/swirling-ornamental-decorative-floral-pattern-vector-22753321-1.jpg');
+    background-image: url('img/bhai5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;     /*This will make the image and the text to be as ame as in other devices and to stay centered */
+}
+.index-banner2 {
+    width: 100%;
+    height: calc(20vh - 100px);   /*because 100px is the height of the header  ...thats why we have to subtract it from the view area*/
+  /*  height: 100vh;   vh means view height*/
+  background-image: url('img/page-divider-png-1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    display: table;     /*This will make the image and the text to be as ame as in other devices and to stay centered */
+}
+.index-banner23 {
+display: none;  
+}
+ 
+.vertical-center{    
+  display: table-cell;      /*itt will make the text the box inside the image */
+  vertical-align: middle;    /*this will make it vertically centered */
+}
+.index-banner h2{
+    font-family: "Castellar";
+    font-size: 90px;
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    line-height: 70px;
+    text-shadow: 2px 2px 8px #111;
+}
+.index-banner h3{
+    font-family: "Castellar";
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 40px;
+    text-shadow: 2px 2px 8px #111;   /*will give a shadow to the letters 2px 2px means right and top and the 8px will be the blurryness to the letters*/
+    
+}
+
+.index-links h1{
+  font-size: 50px;
+  font-family: "Castellar";
+  margin-left: 15px;
+}
+
+
+.index-links div{
+     margin: 16px 16px 0;
+     width: calc(100% - 32px);
+     height: 230px;
+     background-color: #f2f2f2;
+}
+
+.index-links div h3{
+    font-family: "Castellar";
+    font-size: 28px;
+    color: #111;
+    text-align: center;
+    font-weight: 600;
+
+    line-height: 100px;
+ 
+}
+
+.index-boxlink-square img{
+    width:936px;
+    height: 230px;
+}
+.index-boxlink-rectangle img{
+    width:936px;
+    height: 230px;
+}
+
+.slideshow{
+    display: none;
+}
+
+
+
+
+
+
+.home-page-written{
+    margin-top: 40px;
+    width: 900px;
+    margin-left: 40px;
+    background-color: #f2f2f2;
+}
+
+.home-page-written h1{
+    padding-top: 30px;
+   line-height: 50px;
+   font-size: 60px;
+   font-family: "castellar";
+   text-align: center;
+
+}
+.home-page-written h3{
+    text-align: center;
+    color: rgb(58, 58, 58);
+    font-size: 30px;
+    font-family: "lucinda";   
+    padding-bottom: 30px;
+}
+.home-page-written p{
+    padding: 20px 20px;
+    line-height: 50px;
+    text-align: center;
+   font-size: 25px;
+   font-family: "lucinda";   
+}
+
+.home-page-written h4{
+    text-align: center;
+    color: rgb(107, 107, 107);
+    font-size: 30px;
+    font-family: "lucinda";   
+    padding-bottom: 30px;
+}
+    .main-index{
+        height: 1950px;
+    }
+    
+
+
+
+
+@media only screen and (min-width:1000px) {
+
+
+
+.home-page-written{
+    margin-top: 40px;
+    width: 1000px;
+    margin-left: 182px;
+    background-color: #f2f2f2;
+}
+
+.home-page-written h1{
+    padding-top: 30px;
+   line-height: 50px;
+   font-size: 60px;
+   font-family: "castellar";
+   text-align: center;
+
+}
+
+.home-page-written p{
+    padding: 20px 20px;
+    line-height: 50px;
+    text-align: center;
+   font-size: 25px;
+   font-family: "lucinda";   
+}
+
+.home-page-written h4{
+    text-align: center;
+    color: rgb(107, 107, 107);
+    font-size: 30px;
+    font-family: "lucinda";   
+    padding-bottom: 30px;
+}
+    .main-index{
+        height: 1950px;
+    }
+    
+    
+    .wrapper{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .index-banner {
+        height: 450px;  
+        width: 1165px;
+        margin-left: 100px;
+        position: static;
+        z-index: 4;
+    }
+    .index-banner2 {
+        margin-left: 400px;
+        height: 100px;  
+        width: 500px;
+
+    }
+    .index-banner23 {
+        width: 100%;
+        height: calc(20vh - 100px);   /*because 100px is the height of the header  ...thats why we have to subtract it from the view area*/
+      /*  height: 100vh;   vh means view height*/
+      background-image: url('img/page-divider-png-1.png');
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+        display: table;     /*This will make the image and the text to be as ame as in other devices and to stay centered */
+    }
+    .index-banner23 {
+        margin-left: 400px;
+        height: 100px;  
+        width: 500px;
+
+    }
+
+    .index-banner h3{
+        display: block;
+        width: 560px;
+        margin: 0  auto;
+    
+    }
+
+    .index-links {
+
+     overflow: hidden;
+   }
+    .index-links div{
+        margin: 20px 10px 0;
+       
+        height: 230px;
+        background-color: #f2f2f2;
+        float: left;
+   }
+    .index-boxlink-square{
+        width: calc(25% - 20px) !important;
+   }
+   .index-boxlink-rectangle{
+    width: calc(50% - 20px) !important;
+}
+.index-boxlink-square img{
+    width:230px;
+    height: 230px;
+}
+.index-boxlink-rectangle img{
+    width:480px;
+    height: 230px;
+}
+.index-links div h3{
+
+    line-height: 170px;
+ 
+}
+.slideshow{
+    display: block;
+}
+
+.slideshow{
+    margin:0 auto;
+    padding-top: 50px;
+    height: 350px;
+   background-color: #f2f2f2;
+  
+    box-sizing:border-box;
+  }
+  .content{
+    
+    margin:auto;
+    height: 200px;
+    width: 270px;
+    perspective: 1000px;
+    position: relative;
+    padding-top: 80px;
+  
+  }
+  .content-carrousel{
+    width: 100%;
+    position: absolute;
+    float: right;
+    animation: rotar 30s infinite linear;
+    transform-style: preserve-3d;
+  }
+  .content-carrousel:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+  }
+  
+  
+  .content-carrousel figure{
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+  }
+  .content-carrousel figure:nth-child(1){
+    transform:rotateY(0deg) translateZ(400px);
+  }
+  .content-carrousel figure:nth-child(2){
+    transform:rotateY(30deg) translateZ(400px);
+  }
+  .content-carrousel figure:nth-child(3){
+    transform:rotateY(60deg) translateZ(400px);
+  }
+  .content-carrousel figure:nth-child(4){
+    transform:rotateY(90deg) translateZ(400px);
+  }
+  .content-carrousel figure:nth-child(5){
+    transform:rotateY(120deg) translateZ(400px);
+  }
+  .content-carrousel figure:nth-child(6){
+    transform:rotateY(150deg) translateZ(400px);
+  }
+  .content-carrousel figure:nth-child(7){
+    transform:rotateY(180deg) translateZ(400px);
+  }
+  .content-carrousel figure:nth-child(8){
+    transform:rotateY(210deg) translateZ(400px);
+  }
+  .content-carrousel figure:nth-child(9){
+    transform:rotateY(240deg) translateZ(400px);
+  }
+  .content-carrousel figure:nth-child(10){
+    transform:rotateY(270deg) translateZ(400px);
+  }
+  .content-carrousel figure:nth-child(11){
+    transform:rotateY(300deg) translateZ(400px);
+  }
+  .content-carrousel figure:nth-child(12){
+    transform:rotateY(330deg) translateZ(400px);
+  }
+  .shadow{
+    position: absolute;
+    box-shadow: 0px 0px 20px 0px #000;
+    border-radius: 20px;
+  }
+  
+  .content-carrousel img{
+    image-rendering: auto;
+    transition:all 300ms;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .content-carrousel img:hover{
+    transform:scale(1.1);
+    transition:all 300ms;
+  
+  }
+  
+  @keyframes rotar {
+    from{
+      transform:rotateY(0deg);
+    }
+    to{
+      transform:rotateY(360deg);
+    }
+  }
+  .ph1 {
+    text-align: center;
+    font-size: 80px;
+    padding-bottom: 20px;
+  
+  }
+  
+  
+  .main3{
+    height: 2150px;
+  }
+   
+  .slideshow video{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+  
+  opacity:0.4;
+    width:100%;
+    height:cover;
+      object-fit: cover;
+    pointer-events: none;
+  
+  
+  }
+  .contents video{
+     position: absolute;
+    z-index: -1;
+    top: 759px;
+    left: 0;
+  
+  opacity:0.4;
+    width:100%;
+    height:cover;
+      object-fit: cover;
+    pointer-events: none;
+  
+  
+  
+  }
+  
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----FOOTER----*/
+footer {
+    height:70px;
+    margin-top: 20px;
+    background-color: #111;
+    overflow: hidden;
+
+}
+footer ul{
+    
+width: fit-content;  /* this will change the width of the menu bar as there is the changee in the view that is mobile laptop etc*/
+ float: left;
+
+ padding-left: 20px;
+
+}
+footer ul li{
+    
+    display: block;
+
+    list-style: none;
+
+     
+    }
+
+    footer ul li a{
+    
+        font-family: "Castellar";
+        font-size: 24px;
+        color: #fff;
+        line-height: 40px;
+         
+        }
+
+
+.footer-links-cases{
+    display: none;
+}
+.footer-Social-Media{
+    width: 50px;
+    float: right;
+
+}
+.footer-Social-Media img{
+    width: 100%;
+    margin-bottom :10px;
+    
+}
+
+.footer-index{
+    height: 70px;
+    margin-top:420px ;}
+.footer1{
+    height:70px;
+    background-color: #111;
+    overflow: hidden;
+    position :fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    width: 100%;
+}
+@media only screen and (min-width:1000px) {
+    .footer1{
+        height:70px;
+        margin-top: 20px;
+        background-color: #111;
+        overflow: hidden;
+        position: relative;
+    }
+.footer-index{
+
+    margin-top:330px ;}
+    footer {
+                bottom: 0;
+        right: 0;
+        left: 0;
+    
+        background-color: #111;
+        width: 100%;
+        height: 70px;
+    
+    }
+
+
+    .footer-links-cases{
+        display: block;
+    }
+    footer ul{
+    
+        margin-bottom: 30px;
+         padding-right: 30px;
+        
+        }
+
+    footer ul li p{
+    
+        font-family: Catamaran;
+        font-size: 24px;
+        color: #fff;
+        line-height: 0px;
+         text-transform: uppercase;
+        }
+
+    
+
+
+
+
+
+    }
+
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      
+      /* Create four equal columns that sits next to each other */
+      .column {
+        flex: 100%;
+        max-width: 100%;
+        padding: 0 4px;
+      }
+      
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s linear;
+      }
+    
+    
+
+    @media only screen and (min-width:1000px) {
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 4px;
+          }
+          
+          /* Create four equal columns that sits next to each other */
+          .column {
+            flex: 25%;
+            max-width: 33.3%;
+            padding: 0 4px;
+          }
+          
+          .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+            width: 100%;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s linear;
+          }
+        
+        
+    }
+
